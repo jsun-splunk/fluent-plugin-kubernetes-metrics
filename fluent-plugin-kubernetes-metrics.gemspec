@@ -2,7 +2,7 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name    = 'hbrewster-fluent-plugin-kubernetes-metrics'
+  spec.name    = 'fluent-plugin-kubernetes-metrics-hbrewster'
   spec.version = File.read('VERSION')
   spec.authors = ['hbrewster']
   spec.email   = ['hbrewster@splunk.com']
