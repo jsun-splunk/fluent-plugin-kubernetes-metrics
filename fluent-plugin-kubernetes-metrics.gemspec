@@ -2,10 +2,10 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name    = 'fluent-plugin-kubernetes-metrics'
+  spec.name    = 'hbrewster-fluent-plugin-kubernetes-metrics'
   spec.version = File.read('VERSION')
-  spec.authors = ['Splunk Inc.']
-  spec.email   = ['DataEdge@splunk.com']
+  spec.authors = ['hbrewster']
+  spec.email   = ['hbrewster@splunk.com']
   spec.summary       = 'A fluentd input plugin that collects kubernetes cluster metrics.'
   spec.description   = 'A fluentd input plugin that collects node and container metrics from a kubernetes cluster.'
   spec.homepage      = 'https://github.com/splunk/fluent-plugin-kubernetes-metrics'
